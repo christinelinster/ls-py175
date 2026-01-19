@@ -25,17 +25,17 @@ This course builds the bridge between raw networking concepts and modern web app
 
 ## Projects
 
-### Echo Server (`echo_server.py`)
+### [Echo Server](echo_server.py)
 A foundational exercise in network programming.
 * **Focus:** Creating a simple TCP server that listens on a port, accepts client connections, and reflects the data sent back to the client.
 * **Key Concept:** Understanding sockets and the anatomy of a raw data stream.
 
-### Users and Interests (`/user_and_interests`)
+### [Users and Interests](./user_and_interests)
 A dynamic information application that serves different content based on URL parameters.
 * **Focus:** Routing and data structures.
 * **Features:** A navigation menu that highlights the active user and dynamic generation of pages based on a YAML data source.
 
-### File-Based CMS (Book Viewer)
+### [File-Based CMS](./book_viewer)
 A Content Management System that uses the file system as its database.
 * **Focus:** File I/O, robust testing, and CRUD operations.
 * **Features:**
@@ -44,9 +44,10 @@ A Content Management System that uses the file system as its database.
     * **Search:** Implementing search functionality to filter content.
     * **Authentication:** restricting edit access to signed-in users.
 
-### Todos Application
-A comprehensive Task Management application (often hosted in a separate repository).
-* **Focus:** Complex state management and session persistence.
+### Todos Application (External Repo)
+A comprehensive Task Management application representing the culmination of the course.
+* **Repository:** [View Project Code](https://github.com/christinelinster/todo-python-app)
+* **Focus:** Complex state management and session persistence using Flask.
 * **Features:** Creating, editing, and deleting Todo lists and individual tasks, with user feedback provided via Flash messages.
 
 ## Repository Structure
@@ -67,3 +68,4 @@ ls-py175/
 
 ## License
 MIT
+
